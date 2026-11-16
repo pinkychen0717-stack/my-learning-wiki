@@ -6,6 +6,7 @@ const file = params.get("file");
 // 允許讀取的文章清單
 const allowedArticles = [
     "wiki/programming/cpp.md",
+    "wiki/programming/python.md",
     "wiki/ai/machine-learning.md",
     "wiki/courses/data-structure.md"
 ];
