@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Learning Wiki 個人學習知識庫，整理程式設計、人工智慧與大學課程筆記。">
+    <title>My Learning Wiki | 個人學習知識庫</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 導覽列 -->
+    <header class="navbar">
+        <a href="index.html" class="logo">My Learning Wiki<span>.</span></a>
+        <nav>
+            <a href="#home">首頁</a>
+            <a href="#categories">知識分類</a>
+            <a href="#about">關於本站</a>
+        </nav>
+    </header>
+    <main>
+        <!-- 首頁主視覺 -->
+        <section class="hero" id="home">
+            <p class="eyebrow">PERSONAL KNOWLEDGE BASE</p>
+            <h1>Learn, Explore,<br>And Grow.</h1>
+            <p class="hero-description">
+                將每一次學習化為知識，<br>
+                建立屬於自己的知識收藏庫。
+            </p>
+            <a href="#categories" class="main-button">探索知識 →</a>
+        </section>
+        <!-- 知識分類 -->
+        <section class="categories" id="categories">
+            <div class="section-heading">
+                <p class="eyebrow">EXPLORE KNOWLEDGE</p>
+                <h2>知識分類</h2>
+                <p>從不同領域探索知識，累積自己的學習地圖。</p>
+            </div>
+            <!-- 搜尋功能 -->
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="搜尋知識，例如 C++、Python、AI..."
+                >
+                <p id="searchMessage"></p>
+            </div>
+            <!-- 分類卡片 -->
+            <div class="category-grid">
+                <a href="article.html?file=wiki/programming/cpp.md" class="category-card">
+                    <span class="card-number">01</span>
+                    <h3>Programming</h3>
+                    <p>程式設計</p>
+                    <span class="card-description">
+                        C++、Python、HTML、CSS
+                    </span>
+                    <span class="card-arrow">探索更多 →</span>
+                </a>
+                <a href="article.html?file=wiki/ai/machine-learning.md" class="category-card">
+                    <span class="card-number">02</span>
+                    <h3>Artificial Intelligence</h3>
+                    <p>人工智慧</p>
+                    <span class="card-description">
+                        機器學習、資料探勘、生成式 AI
+                    </span>
+                    <span class="card-arrow">探索更多 →</span>
+                </a>
+                <a href="article.html?file=wiki/courses/data-structure.md" class="category-card">
+                    <span class="card-number">03</span>
+                    <h3>Course Notes</h3>
+                    <p>課程筆記</p>
+                    <span class="card-description">
+                        資料結構、大腦與認知科學
+                    </span>
+                    <span class="card-arrow">探索更多 →</span>
+                </a>
+            </div>
+        </section>
+        <!-- 關於本站 -->
+        <section class="about" id="about">
+            <p class="eyebrow">ABOUT THIS PROJECT</p>
+            <h2>Knowledge grows<br>with every discovery.</h2>
+            <p>
+                My Learning Wiki 是一個持續更新的個人學習知識庫，
+                透過有系統的整理，讓知識更容易被保存、搜尋與分享。
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 My Learning Wiki. Keep Learning, Keep Growing.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
