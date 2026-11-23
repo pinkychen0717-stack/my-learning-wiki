@@ -16,6 +16,7 @@
             <a href="#about">關於本站</a>
         </nav>
     </header>
+
     <main>
         <section class="hero" id="home">
             <p class="eyebrow">PERSONAL KNOWLEDGE BASE</p>
@@ -26,12 +27,14 @@
             </p>
             <a href="#categories" class="main-button">探索知識 →</a>
         </section>
+
         <section class="categories" id="categories">
             <div class="section-heading">
                 <p class="eyebrow">EXPLORE KNOWLEDGE</p>
                 <h2>知識分類</h2>
                 <p>從不同領域探索知識，累積自己的學習地圖。</p>
             </div>
+
             <div class="search-box">
                 <input
                     type="text"
@@ -40,7 +43,9 @@
                 >
                 <p id="searchMessage"></p>
             </div>
+
             <div class="category-grid">
+
                 <!-- Programming -->
                 <div class="category-card">
                     <span class="card-number">01</span>
@@ -49,35 +54,79 @@
                     <span class="card-description">
                         C++、Python、HTML、CSS
                     </span>
+
                     <div class="card-arrow">
-                        <a href="article.html?file=wiki/programming/cpp.md">C++ 程式設計入門 →</a>
+                        <a href="article.html?file=wiki/programming/cpp.md">
+                            C++ 程式設計入門 →
+                        </a>
                     </div>
+
                     <div class="card-arrow">
-                        <a href="article.html?file=wiki/programming/python.md">Python 程式設計入門 →</a>
+                        <a href="article.html?file=wiki/programming/python.md">
+                            Python 程式設計入門 →
+                        </a>
                     </div>
                 </div>
+
                 <!-- Artificial Intelligence -->
-                <a href="article.html?file=wiki/ai/machine-learning.md" class="category-card">
+                <div class="category-card">
                     <span class="card-number">02</span>
                     <h3>Artificial Intelligence</h3>
                     <p>人工智慧</p>
                     <span class="card-description">
-                        機器學習、資料探勘、生成式 AI
+                        人工智慧、機器學習、深度學習、生成式 AI、大型語言模型
                     </span>
-                    <span class="card-arrow">探索更多 →</span>
-                </a>
+
+                    <div class="card-arrow">
+                        <a href="article.html?file=wiki/ai/introduction-to-ai.md">
+                            人工智慧入門 →
+                        </a>
+                    </div>
+
+                    <div class="card-arrow">
+                        <a href="article.html?file=wiki/ai/machine-learning.md">
+                            機器學習入門 →
+                        </a>
+                    </div>
+
+                    <div class="card-arrow">
+                        <a href="article.html?file=wiki/ai/deep-learning.md">
+                            深度學習入門 →
+                        </a>
+                    </div>
+
+                    <div class="card-arrow">
+                        <a href="article.html?file=wiki/ai/generative-ai.md">
+                            生成式人工智慧 →
+                        </a>
+                    </div>
+
+                    <div class="card-arrow">
+                        <a href="article.html?file=wiki/ai/large-language-models.md">
+                            大型語言模型 →
+                        </a>
+                    </div>
+                </div>
+
                 <!-- Course Notes -->
-                <a href="article.html?file=wiki/courses/data-structure.md" class="category-card">
+                <div class="category-card">
                     <span class="card-number">03</span>
                     <h3>Course Notes</h3>
                     <p>課程筆記</p>
                     <span class="card-description">
                         資料結構、大腦與認知科學
                     </span>
-                    <span class="card-arrow">探索更多 →</span>
-                </a>
+
+                    <div class="card-arrow">
+                        <a href="article.html?file=wiki/courses/data-structure.md">
+                            資料結構入門 →
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </section>
+
         <section class="about" id="about">
             <p class="eyebrow">ABOUT THIS PROJECT</p>
             <h2>Knowledge grows<br>with every discovery.</h2>
@@ -87,9 +136,11 @@
             </p>
         </section>
     </main>
+
     <footer>
         <p>© 2026 My Learning Wiki. Keep Learning, Keep Growing.</p>
     </footer>
+
     <script src="js/main.js"></script>
 </body>
 </html>
