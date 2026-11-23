@@ -38,7 +38,7 @@ My Learning Wiki 是一個個人學習知識庫網站，主要整理大學生在
 ### 2. AI Introduction Slides
 以人工智慧為主題製作的 HTML 教學簡報，共 8 頁，介紹 AI、機器學習、深度學習、生成式 AI 及大型語言模型。
 
-- 簡報檔案：`slides/ai-introduction.html`
+- HTML 簡報：[點此觀看八頁簡報](https://pinkychen0717-stack.github.io/my-learning-wiki/slides/ai-introduction.html)
 
 ## 四、資料來源
 
@@ -169,5 +169,6 @@ AI 在新增或修改內容之前，應先閱讀 AGENTS.md，並遵守其中的�
 - 增加更多互動式教學內容。
 
 ---
+
 
 **My Learning Wiki — Learn, Explore, And Grow.**
